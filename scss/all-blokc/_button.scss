@@ -1,5 +1,16 @@
-.button {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
+.site-btn {
+  width: 180px;
+  height: 53px;
+  background-color: var(--button-bg-color);
+  border: none;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--button-text-color);
+}
+.site-btn:hover {
+    border: 3px solid #FCB72B;
+    background-color: var(--button-text-color);
+    color: var(--button-bg-color);
 }

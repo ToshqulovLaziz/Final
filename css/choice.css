@@ -1,0 +1,27 @@
+.site-choice {
+  margin: 160px 0 147px 0;
+}
+
+.site-choice__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-choice__img {
+  margin-bottom: 16px;
+}
+
+.site-choice__subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--main-title-color);
+}
+
+.site-choice__text {
+  width: 320px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--main-text-color);
+}/*# sourceMappingURL=choice.css.map */

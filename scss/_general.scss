@@ -7,14 +7,14 @@ html {
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 body {
     display: flex;
     flex-direction: column;
     height: 100%;
-    font-family: "Arial", sans-serif;
+    font-family: Space Mono, Lexend Deca, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     margin: 0;
@@ -25,4 +25,10 @@ img {
     max-width: 100%;
     height: auto;
     vertical-align: middle;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
 }

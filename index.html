@@ -1,20 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
     <title>Starter Scss</title>
   </head>
   <body>
-    <!-- HEADER -->
-    <header></header>
+    <!-- header start -->
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header__wrapper">
+          <div class="site-header__start">
+            <a class="site-header__start-link" 
+            href="./index.html">
+              <img class="site-header__start-img" 
+                   src="./imgs/logo.svg" 
+                   width="108"
+                   height="29"
+                   alt="scoot">
+            </a>
+            <nav class="site-header__nav">
+              <ul class="site-header__nav-list">
+                <li class="site-header__nav-item">
+                  <a class="site-header__nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="site-header__nav-item">
+                  <a class="site-header__nav-link" href="#">Location</a>
+                </li>
+                <li class="site-header__nav-item">
+                  <a class="site-header__nav-link" href="#">Careers</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="site-header__end">
+            <button class="site-btn">
+              Get Scootin
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
 
-    <!-- MAIN -->
-    <main></main>
+    <!-- main start -->
+    <main class="site-main">
+      <h1 class="visually-hidden">Scoot main</h1>
+      <section class="hero">
+          <div class="container">
+            <h2 class="hero-title">Scooter sharing made simple</h2>
+            <p class="hero-text">
+              Scoot takes the hassle out of urban mobility. Our bikes are placed in 
+              convenient locations in each of our cities. Use our app to locate the 
+              nearest bike, unlock it with a tap, and you're away!
+            </p>
+            <button class="site-btn">
+              Get Scootin
+            </button>
+            <img class="hero-img" src="./imgs/Path2.svg" alt="Path2" width="242">
+            <img class="hero-pic" src="./imgs/Groupp.svg" alt="Path">
+          </div>
+      </section>
+      <section class="site-choice">
+        <div class="container">
+          <ul class="site-choice__list">
+            <li class="site-choice__item">
+              <img class="site-choice__img"
+                src="./imgs/telefon.svg" 
+                alt="telefon" width="96" 
+                height="96"
+              >
+              <h3 class="site-choice__subtitle">Locate with app</h3>
+              <p class="site-choice__text">
+                Use the app to find the nearest scooter 
+                to you. We are continuously placing scooters in the 
+                areas with most demand, so one should never be too far away. 
+              </p>
+            </li>
+            <li class="site-choice__item">
+              <img class="site-choice__img"
+                src="./imgs/scuter.svg" 
+                alt="scuter" width="96" 
+                height="96"
+              >
+              <h3 class="site-choice__subtitle">Pick your scooter</h3>
+              <p class="site-choice__text">
+                We show the most important info for 
+                the scooters closest to you. So you know how much 
+                charge they have left and can see roughly how much it will cost. 
+              </p>
+            </li>
+            <li class="site-choice__item">
+              <img class="site-choice__img"
+                src="./imgs/scuter1.svg" 
+                alt="scuter" width="96" 
+                height="96"
+              >
+              <h3 class="site-choice__subtitle">Enjoy the ride</h3>
+              <p class="site-choice__text">
+                Scan the QR code and the bike will unlock. Retract the 
+                cable lock, put on a helmet, and you're off! Always lock 
+                bikes away from walkways and accessibility ramps. 
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- main end -->
 
-    <!-- FOOTER -->
+    <!-- footer start -->
     <footer></footer>
+    <!-- footer end -->
   </body>
 </html>

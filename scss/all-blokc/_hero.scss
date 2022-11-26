@@ -1,0 +1,39 @@
+.hero {
+  position: relative;
+  max-width: 100%;
+  background-image: url("../../imgs/Bitmap.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: var(--main-title-color);
+  background-blend-mode: multiply;
+  padding: 153px 0;
+}
+.hero-title {
+  width: 500px;
+  margin: 0;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  color: var(--button-text-color);
+}
+.hero-text {
+  width: 405px;
+  margin: 40px 87px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--button-text-color);
+}
+.hero-img{
+  position: absolute;
+  top: 349px;
+  left: 0;
+}
+.hero-pic{
+  position: absolute;
+  left: 735px;
+  top: 349px;
+}
+.hero .site-btn {
+  margin-left: 87px;
+}
