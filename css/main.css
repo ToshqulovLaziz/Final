@@ -316,15 +316,15 @@ template {
 }
 
 @font-face {
-  font-family: "Lexend Deca";
-  src: url("LexendDeca-Regular.woff2") format("woff2"), url("LexendDeca-Regular.woff") format("woff");
-  font-weight: normal;
+  font-family: "Space Mono";
+  src: url("../fonts/SpaceMono-Bold.woff2") format("woff2"), url("SpaceMono-Bold.woff") format("woff");
+  font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Space Mono";
-  src: url("SpaceMono-Regular.woff2") format("woff2"), url("SpaceMono-Regular.woff") format("woff");
+  font-family: "Lexend Deca";
+  src: url("../fonts/LexendDeca-Regular.woff2") format("woff2"), url("LexendDeca-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -345,7 +345,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  font-family: Space Mono, Lexend Deca, sans-serif;
+  font-family: "Space Mono", "Lexend Deca", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   margin: 0;
@@ -459,7 +459,7 @@ a {
 }
 
 .hero-title {
-  width: 500px;
+  width: 580px;
   margin: 0;
   font-weight: 700;
   font-size: 56px;
@@ -470,6 +470,7 @@ a {
 .hero-text {
   width: 405px;
   margin: 40px 87px;
+  font-family: "Lexend Deca";
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
@@ -518,6 +519,7 @@ a {
 
 .site-choice__text {
   width: 320px;
+  font-family: "Lexend Deca";
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
@@ -546,7 +548,7 @@ a {
 }
 
 .useful-information__pic {
-  width: 597px;
+  width: 567px;
   height: 408px;
 }
 
@@ -561,7 +563,7 @@ a {
 }
 
 .useful-information__item-subtitle {
-  width: 405px;
+  width: 475px;
   margin: auto 0 24px 0;
   font-weight: 700;
   font-size: 48px;
@@ -570,8 +572,9 @@ a {
 }
 
 .useful-information__item-text {
-  width: 405px;
+  width: 475px;
   margin: 0 0 40px 0;
+  font-family: "Lexend Deca";
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
@@ -581,7 +584,7 @@ a {
 .site-footer {
   position: relative;
   background-color: var(--main-title-color);
-  z-index: 9999;
+  margin-top: 297px;
 }
 
 .site-footer__wrap {
@@ -596,11 +599,11 @@ a {
   position: absolute;
   right: 0;
   top: 176px;
-  z-index: 1;
 }
 
 .site-footer__title {
-  width: 415px;
+  width: 465px;
+  font-family: "Space Mono";
   font-weight: 700;
   font-size: 48px;
   line-height: 48px;
@@ -639,6 +642,7 @@ a {
 
 .site-footer__text {
   margin: 0;
+  font-family: "Lexend Deca";
   font-weight: 700;
   font-size: 10px;
   line-height: 15px;

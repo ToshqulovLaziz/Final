@@ -1,7 +1,7 @@
 .site-footer {
   position: relative;
   background-color: var(--main-title-color);
-  z-index: 9999;
+  margin-top: 297px;
 }
 .site-footer__wrap {
   padding: 92px 0;
@@ -14,10 +14,10 @@
   position: absolute;
   right: 0;
   top: 176px;
-  z-index: 1;
 }
 .site-footer__title {
-  width: 415px;
+  width: 465px;
+  font-family: 'Space Mono';
   font-weight: 700;
   font-size: 48px;
   line-height: 48px;
@@ -50,6 +50,7 @@
 }
 .site-footer__text {
   margin: 0;
+  font-family: 'Lexend Deca';
   font-weight: 700;
   font-size: 10px;
   line-height: 15px;

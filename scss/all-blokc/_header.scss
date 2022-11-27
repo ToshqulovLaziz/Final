@@ -14,21 +14,4 @@
 .site-header__start-link {
   margin-right: 58px;
 }
-.site-header__nav-list {
-  width: 249px;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  list-style: none;
-}
-.site-header__nav-link {
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 25px;
-  color: var(--main-text-color);
-}
-.site-header__nav-link:hover {
-  color: var(--button-bg-color);
-}
+
