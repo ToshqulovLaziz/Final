@@ -1,0 +1,36 @@
+.site-useful__information-item:nth-child(2) {
+  margin: 163px 0 ;
+}
+.site-useful__information-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.useful-information__pic {
+  width: 597px;
+  height: 408px;
+}
+.useful-information__pic1 {
+  width: 420px;
+  height: 327px;
+}
+.useful-information__pic2 {
+  width: 532px;
+  height: 388px;
+}
+.useful-information__item-subtitle {
+  width: 405px;
+  margin: auto 0 24px 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: var(--main-title-color);
+}
+.useful-information__item-text {
+  width: 405px;
+  margin: 0 0 40px 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--main-text-color);
+}
